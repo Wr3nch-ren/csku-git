@@ -2,7 +2,7 @@
 #include <string.h>
 
 enum DaysOfWeek{
-    MON = 5,TUE = 6,WED = 7,THU = 8,FRI = 9,SAT = 10,SUN = 4
+    MON = 4,TUE = 5,WED = 6,THU = 7,FRI = 8,SAT = 9,SUN = 3
 };
 
 int main()
