@@ -2,6 +2,7 @@
 #include "Person.h"
 #include "Student.h"
 #include "Teacher.h"
+#include "TeacherAssistant.h"
 
 using namespace std;
 
@@ -23,5 +24,10 @@ int main() {
     t1->giveScore(s1, 45);
     cout << "TEACHER: " << t1->getName() << endl;
 
+    TeacherAssistant* ta1 = new TeacherAssistant("Senior", "6210405555");
+    cout << "TA: " << ta1->getName() << endl;
+
+    cout << "----------------------------------" << endl;
+    
     return 0;
 }
